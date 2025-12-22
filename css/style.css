@@ -45,6 +45,7 @@ body {
   align-items: center;
   text-decoration: none;
   filter: drop-shadow(0px 30px 10px rgba(198, 198, 198, 0.5));
+  padding-bottom: 20px;
 }
 .web .btns .btn .btnlogo {
   width: 30%;
