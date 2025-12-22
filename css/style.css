@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+body {
+  padding: 0px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.web {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/7KD2wAR.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web .btns {
+  display: flex;
+  gap: 15vw;
+  height: 50vh;
+}
+.web .btns .btn1 {
+  margin-bottom: 100px;
+}
+.web .btns .btn1:hover {
+  margin-bottom: 110px;
+}
+.web .btns .btn2 {
+  margin-top: 100px;
+}
+.web .btns .btn2:hover {
+  margin-top: 90px;
+}
+.web .btns .btn {
+  background-image: url(../images/8vbsJ1C.png);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 15vw;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  filter: drop-shadow(0px 30px 10px rgba(198, 198, 198, 0.5));
+}
+.web .btns .btn .btnlogo {
+  width: 30%;
+}
+.web .btns .btn .btnlogovision {
+  width: 28%;
+}
+.web .btns .btn .btnword {
+  color: #000;
+  font-family: Noto Sans TC;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: clamp(1rem, 1.8vw, 8rem);
+}
